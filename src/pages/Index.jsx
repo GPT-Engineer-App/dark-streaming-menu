@@ -7,9 +7,6 @@ const Index = () => {
     { title: "Movie 1", image: "https://images.unsplash.com/photo-1579762689878-ce41dd75ad98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHBvc3RlciUyMDF8ZW58MHx8fHwxNzEzMDgwMjczfDA&ixlib=rb-4.0.3&q=80&w=1080" },
     { title: "Movie 2", image: "https://images.unsplash.com/photo-1579762689878-ce41dd75ad98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHBvc3RlciUyMDJ8ZW58MHx8fHwxNzEzMDgwMjczfDA&ixlib=rb-4.0.3&q=80&w=1080" },
     { title: "Movie 3", image: "https://images.unsplash.com/photo-1533319417894-6fbb331e5513?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHBvc3RlciUyMDN8ZW58MHx8fHwxNzEzMDgwMjczfDA&ixlib=rb-4.0.3&q=80&w=1080" },
-    { title: "Movie 4", image: "https://images.unsplash.com/photo-1579935110378-81262796945f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHBvc3RlciUyMDR8ZW58MHx8fHwxNzEzMDgwMjc0fDA&ixlib=rb-4.0.3&q=80&w=1080" },
-    { title: "Movie 5", image: "https://images.unsplash.com/photo-1533983988674-9a594a1cea89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHBvc3RlciUyMDV8ZW58MHx8fHwxNzEzMDgwMjc0fDA&ixlib=rb-4.0.3&q=80&w=1080" },
-    { title: "Movie 6", image: "https://images.unsplash.com/photo-1580130775562-0ef92da028de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHBvc3RlciUyMDZ8ZW58MHx8fHwxNzEzMDgwMjc0fDA&ixlib=rb-4.0.3&q=80&w=1080" },
   ];
 
   return (
