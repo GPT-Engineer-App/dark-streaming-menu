@@ -29,7 +29,7 @@ const Index = () => {
         <Text fontSize="4xl" fontWeight="bold" color="white">
           Movies
         </Text>
-        <Grid templateColumns="repeat(3, 1fr)" gap={8}>
+        <Grid templateColumns="repeat(2, 1fr)" gap={8}>
           {movies.map((movie, index) => (
             <GridItem key={index}>
               <VStack spacing={4} p={4} bg="gray.700" borderRadius="md" alignItems="stretch">
