@@ -10,8 +10,10 @@ const Index = () => {
     { title: "Movie 3", image: "https://images.unsplash.com/photo-1533319417894-6fbb331e5513?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHBvc3RlciUyMDN8ZW58MHx8fHwxNzEzMDgwMjczfDA&ixlib=rb-4.0.3&q=80&w=1080" },
   ];
 
+  const navigate = useNavigate();
+
   return (
-    <Flex h="100vh" bg="gray.900">
+    <Flex minH="100vh" bg="gray.900">
       {/* Left Navbar */}
       <VStack w="200px" bg="gray.800" p={4} spacing={8} alignItems="stretch" justifyContent="space-between">
         <VStack spacing={8} alignItems="stretch">
