@@ -25,7 +25,7 @@ const Index = () => {
       </VStack>
 
       {/* Right Content */}
-      <VStack flex={1} p={8} spacing={8} alignItems="stretch">
+      <VStack flex={1} p={8} spacing={8} alignItems="stretch" minH="0">
         <Text fontSize="4xl" fontWeight="bold" color="white">
           Movies
         </Text>
