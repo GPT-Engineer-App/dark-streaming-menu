@@ -38,7 +38,7 @@ const Index = () => {
                   <Text color="white" fontWeight="bold">
                     {movie.title}
                   </Text>
-                  <Button leftIcon={<FaPlay />} colorScheme="red" size="sm" variant="solid">
+                  <Button leftIcon={<FaPlay />} colorScheme="purple" size="sm" variant="solid">
                     Play
                   </Button>
                 </HStack>
