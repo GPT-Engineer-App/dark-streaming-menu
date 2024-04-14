@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import { Box, Flex, VStack, HStack, Text, Image, Button, IconButton, Grid, GridItem } from "@chakra-ui/react";
 import { FaPlay, FaHome, FaSearch, FaUser } from "react-icons/fa";
 
@@ -36,7 +35,7 @@ const Index = () => {
                   <Text color="white" fontWeight="bold">
                     {movie.title}
                   </Text>
-                  <Button leftIcon={<FaPlay />} colorScheme="purple" size="sm" variant="solid" onClick={() => navigate(`/movie/${index}`, { state: { movie } })}>
+                  <Button leftIcon={<FaPlay />} colorScheme="purple" size="sm" variant="solid">
                     Play
                   </Button>
                 </HStack>
