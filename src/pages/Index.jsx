@@ -36,7 +36,7 @@ const Index = () => {
                   <Text color="white" fontWeight="bold">
                     {movie.title}
                   </Text>
-                  <Button leftIcon={<FaPlay />} colorScheme="purple" size="sm" variant="solid" onClick={() => navigate("/movie", { state: { movie } })}>
+                  <Button leftIcon={<FaPlay />} colorScheme="purple" size="sm" variant="solid" onClick={() => navigate(`/movie/${index}`, { state: { movie } })}>
                     Play
                   </Button>
                 </HStack>
