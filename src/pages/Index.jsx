@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Box, Flex, VStack, HStack, Text, Image, Button, IconButton, Grid, GridItem } from "@chakra-ui/react";
-import { FaPlay, FaHome, FaSearch, FaUser } from "react-icons/fa";
+import { FaPlay, FaHome, FaSearch, FaUser, FaFilm } from "react-icons/fa";
 
 const Index = () => {
   const movies = [
@@ -17,7 +17,7 @@ const Index = () => {
         <VStack spacing={8} alignItems="stretch">
           <IconButton icon={<FaHome />} variant="ghost" colorScheme="whiteAlpha" size="lg" />
           <IconButton icon={<FaSearch />} variant="ghost" colorScheme="whiteAlpha" size="lg" />
-          <IconButton icon={<FaUser />} variant="ghost" colorScheme="whiteAlpha" size="lg" />
+          <IconButton icon={<FaFilm />} variant="ghost" colorScheme="whiteAlpha" size="lg" />
         </VStack>
         <IconButton icon={<FaUser />} variant="ghost" colorScheme="whiteAlpha" size="lg" />
       </VStack>
